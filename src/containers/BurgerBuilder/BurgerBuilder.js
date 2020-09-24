@@ -13,10 +13,10 @@ class burgerbuilder extends Component {
     //modern way 
     state = {
         ingredients: {
-            salad: 0,
-            cheese: 0,
-            bacon: 0,
-            meat: 0
+            salad: 1,
+            cheese: 2,
+            bacon: 1,
+            meat: 2
         }
     };
     render() {
