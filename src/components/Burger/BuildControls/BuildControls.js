@@ -1,8 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-const buildcontrols = (props) => {
-    
-};
+const buildControls = (props) => (
+    <div>
 
-export default buildcontrols;
+    </div>
+);
+
+export default buildControls;
