@@ -4,11 +4,26 @@ import React, { Component } from 'react';
 import Auxi from '../../hoc/Auxi';
 import Burger from '../../components/Burger/Burger';
 class burgerbuilder extends Component {
+    //Even u can follow this method
+    // constructor(props) {
+    //     super (props);
+    //     this.state = {...}
+    // }
+
+    //modern way 
+    state = {
+        ingredients: {
+            salad: 1,
+            cheese: 2,
+            bacon: 1,
+            meat: 2
+        }
+    };
     render() {
         return (
             <Auxi>
                 <div>
-                    <Burger />
+                    <Burger ingredients={this.state.ingredients}/>
                     <p>Builder Controls</p>
                 </div>
             </Auxi>
