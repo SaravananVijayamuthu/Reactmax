@@ -1,7 +1,7 @@
-import classes from '*.module.sass';
+
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import classNames from './BuildControl.module.css';
+import classes from './BuildControl.module.css';
 
 const buildControl = (props) =>(
     <div className={classes.BuildControl}>
