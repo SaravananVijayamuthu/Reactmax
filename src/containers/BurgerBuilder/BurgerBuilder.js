@@ -16,7 +16,7 @@ class burgerbuilder extends Component {
             salad: 1,
             cheese: 2,
             bacon: 1,
-            meat: 2
+            meat: 1
         }
     };
     render() {
